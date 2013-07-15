@@ -11,7 +11,9 @@ fs.readFileSync("index.html", function(err, data) {
 });
 
 app.get('/', function(request, response) {
-  response.send(b.toString('utf-8');
+
+  response.send('Hello World 2!');
+  //response.send(b.toString('utf-8');
   //response.send('Hello World 2!');
 });
 
