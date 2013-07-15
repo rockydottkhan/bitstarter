@@ -4,11 +4,11 @@ var app = express.createServer(express.logger());
 
 var buffer;
 
-fs.readFileSync("index.html", function(err, data) {
-  if (err) throw err;
-  //buffer = new Buffer(data);
-  console.log(data);
-});
+//fs.readFileSync("index.html", function(err, data) {
+//  if (err) throw err;
+//  //buffer = new Buffer(data);
+//  console.log(data);
+//});
 
 app.get('/', function(request, response) {
 
